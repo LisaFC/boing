@@ -14,4 +14,8 @@ This is a placeholder page that shows you how to use this template site.
 
 Do you have any example **applications** or **code** for your users in your repo or elsewhere? Link to your examples here.
 
+I'm going to write some text with `code in it`.
+
+This code is going to `have a <mark>highlight</mark>`.
+
 
