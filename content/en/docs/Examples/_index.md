@@ -28,4 +28,8 @@ Here's a user's code:
 `\([^,]*\), \(`<mark>`.`</mark>`*\)` dowolny znak\
 `\([^,]*\), \(.`<mark>`*`</mark>`\)` dowolną ilość razy
 
+Here is an alert:
 
+{{< alert title="\<cool\>" color="info" >}}
+Alert alert alert
+{{< /alert >}}
