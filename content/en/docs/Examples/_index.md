@@ -16,6 +16,16 @@ Do you have any example **applications** or **code** for your users in your repo
 
 I'm going to write some text with `code in it`.
 
-This code is going to `have a <mark>highlight</mark>`.
+Here's a user's code:
+
+`\([^,]*\), \(.*\)`
+
+<mark>`\(`</mark>`[^,]*`<mark>`\)`</mark>`, \(.*\)` Pierwsza część pomiędzy `\( \)` dopasowuje „Ostatnie”\
+`\(`<mark>`[^,]`</mark>`*\), \(.*\)` dopasuj wszystko z wyjątkiem przecinka\
+`\([^,]`<mark>`*`</mark>`\), \(.*\)` dowolną ilość razy\
+`\([^,]*\)`<mark>`, `</mark>`\(.*\)` dopasowuje dosłownie `, `\
+`\([^,]*\), `<mark>`\(`</mark>`.*`<mark>`\)`</mark> Druga część między `\( \)` dopasowuje "Pierwsze"\
+`\([^,]*\), \(`<mark>`.`</mark>`*\)` dowolny znak\
+`\([^,]*\), \(.`<mark>`*`</mark>`\)` dowolną ilość razy
 
 
