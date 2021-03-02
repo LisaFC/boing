@@ -16,4 +16,4 @@ Do you have any example **applications** or **code** for your users in your repo
 
 Here are some lovely icons:
   <i class="fas fa-handshake"></i> 
-  <i class="fas fa-handshake-slash"></i> 
+  <i class="fas fa-stroopwafel"></i> 
