@@ -158,7 +158,7 @@ bar := "foo";
 
 Code can also use syntax highlighting.
 
-```go
+```go {data-line="2"}
 func main() {
   input := `var foo = "bar";`
 
