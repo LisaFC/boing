@@ -12,6 +12,7 @@ menu:
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 
+Here are some icons: <i class="far fa-edit"></i>
 
 This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
 
