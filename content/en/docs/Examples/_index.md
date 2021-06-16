@@ -2,6 +2,7 @@
 ---
 title: "Examples"
 linkTitle: "Examples"
+gh_url: "https:/my/lovely/url"
 weight: 3
 date: 2017-01-05
 description: >
