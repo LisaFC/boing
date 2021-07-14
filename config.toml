@@ -115,7 +115,7 @@ version = "0.0"
 # point people to the main doc site.
 url_latest_version = "https://example.com"
 
-[[params.versions]]
+[params.versions]
   version = "master"
   url = "https://master.kubeflow.org"
 
