@@ -135,7 +135,7 @@ offlineSearch = false
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = true
 
-[params.versions]
+[[params.versions]]
   version = "master"
   url = "https://master.kubeflow.org"
 
