@@ -115,10 +115,6 @@ version = "0.0"
 # point people to the main doc site.
 url_latest_version = "https://example.com"
 
-[params.versions]
-  version = "master"
-  url = "https://master.kubeflow.org"
-
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/google/docsy-example"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
@@ -138,6 +134,10 @@ offlineSearch = false
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
 prism_syntax_highlighting = true
+
+[params.versions]
+  version = "master"
+  url = "https://master.kubeflow.org"
 
 # User interface configuration
 [params.ui]
