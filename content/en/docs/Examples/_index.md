@@ -21,7 +21,7 @@ Here are some lovely icons:
   
 Here is an ould triangle:
 
-{{ readFile "static/images/triangle.svg" | safeHTML }}
+{{< svg "triangle.svg" >}}
   
 Here is a mindmap:
 
