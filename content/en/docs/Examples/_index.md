@@ -51,3 +51,21 @@ Here is a mindmap:
     ```
 - Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 ```
+
+Here is some code that should look the way I expect it to:
+
+```go {.myclass data-line="2"}
+func main() {
+  input := `var foo = "bar";`
+
+  lexer := lexers.Get("javascript")
+  iterator, _ := lexer.Tokenise(nil, input)
+  style := styles.Get("github")
+  formatter := html.New(html.WithLineNumbers())
+
+  var buff bytes.Buffer
+  formatter.Format(&buff, style, iterator)
+
+  fmt.Println(buff.String())
+}
+```
