@@ -5,6 +5,24 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid@8.11.2/dist/mermaid.min.js" integrity="sha384-m8Pdaep6Qk8sW3J6XhPOiwUww3maU9HxZTLvEfSEB4e1UVvTdHyfJsYmEfYqvwLC" crossorigin="anonymous"></script>
 {{ end }}
 
+{{ if .Site.Params.markmap.enable }}
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: { manual: true },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+{{ end }}
+
+<script src='{{ "/js/tabpane-persist.js" | relURL }}'></script>
+
+
 <!-- load the deflate.js for plantuml support -->
 {{ if .Site.Params.plantuml.enable }}
 <script src='{{ "/js/deflate.js" | relURL }}'></script>
@@ -44,22 +62,5 @@
 <!-- scripts for prism -->
 <script src='{{ "/js/prism.js" | relURL }}'></script>
 {{ end }}
-
-{{ if .Site.Params.markmap.enable }}
-<style>
-.markmap > svg {
-  width: 100%;
-  height: 300px;
-}
-</style>
-<script>
-window.markmap = {
-  autoLoader: { manual: true },
-};
-</script>
-<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
-{{ end }}
-
-<script src='{{ "/js/tabpane-persist.js" | relURL }}'></script>
 
 {{ partial "hooks/body-end.html" . }}
