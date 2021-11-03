@@ -45,10 +45,6 @@ Here is a mindmap:
 - multiline
   text
 - `inline code`
--
-    ```js
-    console.log('code block');
-    ```
 - Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 ```
 
