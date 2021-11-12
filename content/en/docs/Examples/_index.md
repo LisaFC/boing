@@ -15,6 +15,10 @@ This is a placeholder page that shows you how to use this template site.
 
 Do you have any example **applications** or **code** for your users in your repo or elsewhere? Link to your examples here.
 
+Let's add some colourful text.
+
+<div class="-text-blue pt-3 display-4">Text: Blue</div>
+
 Here are some lovely icons:
   <i class="fas fa-handshake"></i> 
   <i class="fas fa-handshake-slash"></i> 
