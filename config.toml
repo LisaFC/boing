@@ -138,6 +138,12 @@ prism_syntax_highlighting = false
 [[params.versions]]
   version = "master"
   url = "https://master.kubeflow.org"
+[[params.versions]]
+  version = "v0.2"
+  url = "https://v0-2.kubeflow.org"
+[[params.versions]]
+  version = "v0.3"
+  url = "https://v0-3.kubeflow.org"
 
 # User interface configuration
 [params.ui]
